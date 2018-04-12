@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { BrowserRouter } from 'react-router-dom';
 import MainContent from './containers/MainContent/MainContent';
 import TopNav from './containers/TopNavigation/TopNavigation';
 
@@ -8,11 +8,13 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-          <TopNav />
-          <MainContent />
+      <BrowserRouter>
+        <div className="App">
+            <TopNav />
+            <MainContent />
 
-      </div>
+        </div>
+      </BrowserRouter>
     );
   }
 }

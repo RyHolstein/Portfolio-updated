@@ -1,15 +1,16 @@
 .NavMenu {
-    float: right;
+    position: absolute;
     display: inline-block;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    right: 5%;
+    top: 65%;
 }
 
 .NavMenu li {
     display: inline-block;
     text-decoration: none;
     margin: 0 10px;
+    
 
 }
 .NavMenu a {

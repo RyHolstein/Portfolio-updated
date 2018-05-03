@@ -1,3 +1,11 @@
+/* 
+
+Here are the main colors ======
+dawn #0EFFA1 · #ED00FF 
+
+*/
+
+
 body {
   margin: 0;
   padding: 0;
@@ -5,14 +13,21 @@ body {
   color: #222222
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
+
 a:active {
   color: #222222;
   text-decoration: none;
 
 }
+
 a:visited  {
   color:#222222
 }

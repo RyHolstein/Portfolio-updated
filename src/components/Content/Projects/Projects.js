@@ -1,8 +1,7 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 
 import Project from './Project/Project';
-import ProjectSelector from './ProjectSelector/ProjectSelector'
 
 import './Projects.css';
 
@@ -10,9 +9,14 @@ import './Projects.css';
 const projects = () => {
     return (
         <div>
-           <Route path='/projects' exact component={ProjectSelector} />
-           <Route path='/projects/one' exact component={Project} />
-           <Route path='/projects/2' exact render={() => <h1>Here is the info for Project 2</h1>} />
+            <h2>Please Select a project</h2>
+            <Link to ='/projects/loveisabella' >
+                <h3>Project 1</h3>
+            </Link> 
+            <Link to ='/projects/riddlefamilyFoundation' >
+                <h3>Project 2</h3>
+            </Link> 
+           
         </div>
     )
 }

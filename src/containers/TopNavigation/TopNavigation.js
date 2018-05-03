@@ -7,6 +7,7 @@ const topNav = () => {
         <div className="TopNav">
             <TopLeftHeader />
             <NavMenu />
+            <div className="BottomDivider"></div>
         </div>
     )
 }

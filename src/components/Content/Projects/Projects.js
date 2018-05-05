@@ -12,7 +12,7 @@ const projects = () => {
             
             <Link to ='/projects/cianmoore'>
             <div className='project__holder'>
-                    <p className="project__title">&lt;title&gt; <span>Cian Moore</span> &lt;&#47;title&gt;</p>
+                    <p className="project__title">&lt; <span> Cian Moore </span> &#47;&gt;</p>
             </div>
             </Link> 
          
@@ -20,28 +20,28 @@ const projects = () => {
             <Link to ='/projects/loveisabella' >
             <div className='project__holder'>
 
-                    <p className="project__title">&lt;title&gt; <span>Love Isabella</span> &lt;&#47;title&gt;</p>
+                    <p className="project__title">&lt; <span> Love Isabella </span> &#47;&gt;</p>
             </div>
             </Link>
             
             <div></div>
             <Link to ='/projects/riddlefamilyFoundation' >
             <div className='project__holder'>
-                    <p className="project__title">&lt;title&gt; <span>Riddle Family Foundation</span> &lt;&#47;title&gt;</p>
+                    <p className="project__title">&lt; <span> Riddle Family Foundation </span> &#47;&gt;</p>
             </div>
             </Link> 
         
             <div></div>
             <Link to ='/projects/twothumbsup' >
             <div className='project__holder'>
-                    <p className="project__title">&lt;title&gt; <span>Two Thumbs Up</span> &lt;&#47;title&gt;</p>
+                    <p className="project__title">&lt; <span> Two Thumbs Up </span> &#47;&gt;</p>
             </div>
             </Link> 
             
             <div></div>
             <Link to ='/projects/createsafebeta' >
             <div className='project__holder'>
-                    <p className="project__title">&lt;title&gt; <span>CreateSafe Beta</span> &lt;&#47;title&gt;</p>
+                    <p className="project__title">&lt; <span> CreateSafe Beta </span> &#47;&gt;</p>
             </div>
             </Link> 
 

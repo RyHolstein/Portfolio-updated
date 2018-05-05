@@ -3,7 +3,7 @@
     text-align: center;
 }
 .contact__greeting {
-
+ margin-bottom: 50px;
 }
 .contact__greeting span {
     font-size: 6em;
@@ -12,6 +12,33 @@
 
 .contact__about-me {
     display: inline-block;
-    font-size: 2em;
+    font-size: 1.75em;
     width: 60%;
+    margin-bottom: 20px;
+}
+
+
+.contact__face__holder {
+    display: inline-block;
+    width: 80%;
+    height:600px;
+    margin-bottom: 75px;
+
+    background-color: whitesmoke;
+
+}
+.contact__resume {
+    margin-bottom: 50px;
+}
+.contact__intro--email {
+    font-size: 1.5em;
+}
+
+.contact__email {
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+.contact__email span {
+    font-weight: 700;
+    font-size: 1.5em;
 }

@@ -1,15 +1,17 @@
 .TopLeftHeader {
-    
     display: inline-block;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 2em;
     position: absolute;
     left: 5%;
     top: 50%;
+    vertical-align: middle;
     animation: fadeInTop 1s ease-in;
+
     /* transform: translateY(-50%;) */
    
 }
+
 
 
 

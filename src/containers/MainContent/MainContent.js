@@ -18,7 +18,6 @@ const mainContent = () => {
         <div className='MainContent'>
             
             <Route path='/' exact component={MainPage} />
-
             <Route path='/projects' exact component={Projects} />
             <Route path='/contact' exact component={Contact} />
             <Route path='/projects/:title'  component={Project} />

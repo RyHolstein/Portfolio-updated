@@ -1,27 +1,27 @@
-
+let fillerText = "Marry me. Across from where? Army had half a day. He'll want to use your yacht, and I don't want this thing smelling like fish. That's what it said on 'Ask Jeeves.'"
 
 let projectInfo = {
-    loveisabella: {
-        title: 'Love',
-        desc: 'this is the desc for love Isabella'
-    },
-    riddlefamilyFoundation : {
-        title: 'riddle',
-        desc: 'this is the desc for riddle'
-    },
     cianmoore : {
         title: 'Cian Moore',
-        desc: 'This was a website for CM'
+        desc: fillerText
+    },
+    loveisabella: {
+        title: 'Love Isabela',
+        desc: fillerText
+    },
+    riddlefamilyFoundation : {
+        title: 'Riddle Family Foundation',
+        desc: fillerText
     },
     twothumbsup : {
         title: 'Two Thumbs Up',
-        desc: 'this was two thumbs project'
+        desc: fillerText
     },
     createsafebeta : {
         title : 'CreateSafe Beta',
-        desc: 'This project was the createsafe beta'
+        desc: fillerText
     }
-    
+
 
 }
 

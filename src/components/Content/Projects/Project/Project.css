@@ -1,0 +1,28 @@
+
+.indiv__project__holder {
+    padding-top: 50px;
+}
+
+.indiv__project__title {
+    font-size:6em;
+    text-align: left;
+    position: relative;
+    left: 10%;
+    white-space: nowrap;
+    color: #E9E9E9;
+   
+
+}
+
+.indiv__project__desc {
+    /* border: 1px solid red; */
+    width: 400px;
+    font-size: 1.4em;
+    font-weight: 500;
+    text-align: left;
+
+    position: relative;
+    left: 20%;
+    top: -50px;;
+
+}

@@ -8,15 +8,49 @@ import './Projects.css';
 
 const projects = () => {
     return (
-        <div>
-            <h2>Please Select a project</h2>
+        <div className="projects__holder">
+            
+            <Link to ='/projects/cianmoore'>
+            <div className='project__holder'>
+                    <p className="project__title">&lt;title&gt; <span>Cian Moore</span> &lt;&#47;title&gt;</p>
+            </div>
+            </Link> 
+         
+            <div></div>
             <Link to ='/projects/loveisabella' >
-                <h3>Project 1</h3>
-            </Link> 
+            <div className='project__holder'>
+
+                    <p className="project__title">&lt;title&gt; <span>Love Isabella</span> &lt;&#47;title&gt;</p>
+            </div>
+            </Link>
+            
+            <div></div>
             <Link to ='/projects/riddlefamilyFoundation' >
-                <h3>Project 2</h3>
+            <div className='project__holder'>
+                    <p className="project__title">&lt;title&gt; <span>Riddle Family Foundation</span> &lt;&#47;title&gt;</p>
+            </div>
             </Link> 
+        
+            <div></div>
+            <Link to ='/projects/twothumbsup' >
+            <div className='project__holder'>
+                    <p className="project__title">&lt;title&gt; <span>Two Thumbs Up</span> &lt;&#47;title&gt;</p>
+            </div>
+            </Link> 
+            
+            <div></div>
+            <Link to ='/projects/createsafebeta' >
+            <div className='project__holder'>
+                    <p className="project__title">&lt;title&gt; <span>CreateSafe Beta</span> &lt;&#47;title&gt;</p>
+            </div>
+            </Link> 
+
            
+             
+            
+           
+          
+     
         </div>
     )
 }

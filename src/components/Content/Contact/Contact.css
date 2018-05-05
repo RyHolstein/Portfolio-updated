@@ -1,0 +1,17 @@
+
+.contact__holder {
+    text-align: center;
+}
+.contact__greeting {
+
+}
+.contact__greeting span {
+    font-size: 6em;
+    vertical-align: middle;
+}
+
+.contact__about-me {
+    display: inline-block;
+    font-size: 2em;
+    width: 60%;
+}

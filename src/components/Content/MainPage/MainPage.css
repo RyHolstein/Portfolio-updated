@@ -1,0 +1,198 @@
+.fp__holder {
+    display: inline-block;
+    
+    
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+
+
+}
+.fp__main-holder {
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: right;
+    z-index: 100;
+    top:30%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.fp__my-name {
+    position: relative;
+    line-height:100px;
+    display: inline-block;
+    z-index: 100;
+    font-size: 7em;
+    animation:  dropdown 1s ease-in;
+
+
+}
+
+.fp__job-desc {
+    position: relative;
+    font-weight: 500;
+    font-size: 2em;
+    z-index: 100;
+    animation: fadeInContact 1s ease-in;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+ 
+}
+.fp__graphic--main {
+    display: inline-block;
+    position: absolute;
+    left: 50%; top: 0;
+    transform: translateX(-50%);
+    width: 400px;
+    height: auto;
+    z-index: 3;
+   
+}
+.link__holder {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 400px; width: 100px;
+    
+}
+.left {
+    left: -50px;
+}
+.right {
+    right:-50px;
+}
+
+
+.link__holder a {
+    display: inline-block;
+    position: absolute;
+    font-size: 4em;
+    top: 30%; 
+    font-weight: 500;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+
+}
+.left a {
+    
+    left: -50%;
+    transform: rotate(90deg) ;
+    animation: slideInLeft .75s ease-in;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+
+.right a {
+    right: -100%;
+    transform: rotate(-90deg) ;
+    animation: slideInRight .75s ease-in;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+
+.a_second {
+    color: #603efe;
+    transition: all .5s;
+}
+.a_third {
+    color: #81ffdd;
+    transition: all .5s;
+}  
+.link__holder:hover .a_second .lef {
+    transform: translatex(-10px)
+}
+
+@media (max-width: 600px) and (max-height:850px){
+  
+    .fp__main-holder {
+     
+        width: 90%;
+        top: 10%;
+       
+     
+    }
+    .fp__my-name {
+        font-size: 3.8em;
+        line-height:50px;
+    }
+    .fp__job-desc {
+        font-size: 1em;
+    }
+    .fp__graphic--main {
+        width: 100%;
+        top: -40%;
+    }
+    .link__holder {
+        height: 50px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    
+      
+        
+    }
+    .link__holder a {
+        font-size: 3em;
+        top: auto;
+        border: 1px solid red;
+    
+     
+       
+    }
+    .left {
+      
+        top:70%;
+    }
+    .right {
+       
+        top:90%;
+    }
+    .left a, .right a {
+        position: absolute;
+        top: 0; 
+        left: 50%;
+        
+        right: auto;
+        transform: rotate(0deg) translateX(-50%);
+    }
+    
+  
+}  
+
+
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100px) rotate(90deg)
+    }
+    100% {
+        transform: translateX(0)rotate(90deg)
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100px) rotate(-90deg)
+    }
+    100% {
+        transform: translateX(0)rotate(-90deg)
+    }
+}
+
+
+@keyframes dropdown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px)
+    }
+    100% {  
+        opacity: 1;
+        transform: translateY(0)
+    }
+}

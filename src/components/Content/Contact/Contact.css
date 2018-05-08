@@ -3,7 +3,7 @@
     text-align: center;
 }
 .contact__greeting {
- margin-bottom: 50px;
+ margin: 20px 0;
 }
 .contact__greeting span {
     font-size: 6em;
@@ -13,8 +13,9 @@
 .contact__about-me {
     display: inline-block;
     font-size: 1.75em;
-    width: 60%;
+    width: 80%;
     margin-bottom: 20px;
+    animation: fadeInContact 2s ease-in
 }
 
 
@@ -27,18 +28,118 @@
     background-color: whitesmoke;
 
 }
-.contact__resume {
-    margin-bottom: 50px;
+
+
+
+
+.contact__resume__holder {
+    display: inline-block;
+    position: relative;
+    width: 65%; height: 100px;
+
+
+    cursor: pointer;
+    margin: 50px 0;
+    animation: fadeInContact 2s ease-in;
+    animation-delay: .5s;
+    animation-fill-mode: both;
 }
+.contact__resume {
+    position: absolute;
+    left: 0; right: 0; 
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3em;
+    white-space: nowrap;
+    font-weight: 500;
+
+}
+.c_first {
+    z-index: 20;
+   
+}
+.c_second {
+   color: #603efe;
+   z-index:19;
+   transition: all .5s;
+}
+
+.c_third {
+    color: #81ffdd;
+    z-index:18;
+    transition: all .5s;
+}
+
+
+.contact__resume__holder:hover .c_second {
+    transform: translateY(-35px)
+}
+
+.contact__resume__holder:hover .c_third {
+    transform: translateY(-22px)
+}
+
+
+
 .contact__intro--email {
     font-size: 1.5em;
+    animation: fadeInContact 2s ease-in;
+    animation-delay: 1s;
+    animation-fill-mode: both;
 }
 
 .contact__email {
     font-size: 2em;
     margin-bottom: 50px;
+    animation: fadeInContact 2s ease-in;
+    animation-delay: 1s;
+    animation-fill-mode: both;
 }
 .contact__email span {
-    font-weight: 700;
+    font-weight: 00;
     font-size: 1.5em;
+}
+.noshow{
+    display: none;
+}
+
+@media (max-width: 600px) and (max-height:850px) {
+    .contact__holder {
+        overflow: hidden;
+    }
+    .contact__greeting span {
+        font-size: 4em;
+    }
+    .contact__about-me {
+        font-size: 1em;
+    
+        width: 92%
+    }
+    .contact__resume__holder {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .contact__intro--email{
+        width: 92%;
+        margin-bottom: 30px;
+    }
+    .noshow {
+        display: block
+    }
+    .contact__email span{
+        font-size: 2em;
+    }
+    .contact__email {
+        font-size: 1em;
+    }
+}
+
+
+@keyframes fadeInContact {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }

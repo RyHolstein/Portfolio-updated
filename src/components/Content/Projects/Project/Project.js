@@ -38,7 +38,7 @@ class Project extends Component {
                 <div className="indiv__bottom-section">
                     <div className="indiv__project__my-info--holder"> 
                         <p>&lt;date&gt;</p>
-                        <p><span>2016</span></p>
+                        <p><span>{currentProject.date}</span></p>
                         <p>&lt;&#47;date&gt;</p>
                     </div>
                     <div className="indiv__project__my-info--holder"> 
@@ -50,7 +50,7 @@ class Project extends Component {
     
                     <div className="indiv__project__screens--holder">
                         {currentProject.imgs.map(img => (
-                            <img key={img}src={img}/>    
+                            <img key={img} src={img}/>    
                         ))}
                     </div>
                     <p className="indiv__project__screen">&lt;&#47;screens&gt;</p>
